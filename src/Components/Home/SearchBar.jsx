@@ -10,7 +10,7 @@ function SearchBar() {
         <Input
           type="text"
           outline="none"
-          placeholder="What are you looking for?"
+          placeholder="想找什麼嗎?"
           backgroundColor={"#ffffff"}
           _focus={{
             boxShadow: "none",

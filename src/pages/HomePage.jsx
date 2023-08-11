@@ -39,7 +39,7 @@ function HomePage() {
       </Box> */}
       <Box>
         <Progress
-          colorScheme="pink"
+          colorScheme="purple"
           hasStripe
           height="42px"
           value={100}
@@ -50,9 +50,9 @@ function HomePage() {
           fontSize={{ base: "80%", sm: "100%", lg: "100%" }}
           position="absolute"
           top={{ base: "117px", sm: "115px", md: "142px", lg: "125px" }}
-          left={{ base: "5%", sm: "27%", md: "30%", lg: "40%" }}
+          left={{ base: "10%", sm: "27%", md: "30%", lg: "45%" }}
         >
-          New arrivals in mens and womens wear upto 30% off ❤️
+          各式甜點限時優惠中 ❤️
         </Text>
       </Box>
 
@@ -76,8 +76,8 @@ function HomePage() {
         margin="auto"
       >
         <Text
-          width={{ base: "100px", sm: "150px", md: "150px", lg: "190px" }}
-          fontSize={{ base: "100%", sm: "150%", md: "150%", lg: "200%" }}
+          width={{ base: "100px", sm: "100px", md: "120px", lg: "160px" }}
+          fontSize={{ base: "100%", sm: "120%", md: "150%", lg: "200%" }}
           fontWeight={"semibold"}
           textAlign="left"
           borderBottom={"2px"}
@@ -85,7 +85,7 @@ function HomePage() {
           marginTop={{ base: 2, sm: 3, md: 7, lg: 10 }}
           borderBottomColor={"#f89f17"}
         >
-          Our Benefits
+          我們的優勢
         </Text>
 
         <Flex marginTop={{ base: 3, sm: 4, md: 6, lg: 7 }} gap="20px">

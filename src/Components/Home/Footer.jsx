@@ -1,6 +1,7 @@
 import {
   Box,
   Button,
+  Center,
   Divider,
   Flex,
   Grid,
@@ -40,11 +41,11 @@ const Footer = () => {
               fontSize={{ base: "15px", sm: "20px", md: "20px", lg: "22px" }}
               textAlign="center"
             >
-              Subscribe to our awesome emails.
+              訂閱FOMCoffee電子報
             </Text>
 
             <Text textAlign="center" fontSize={"15px"}>
-              Get our latest offers and news straight in your inbox.
+              直接在您的收件箱中獲取我們的最新優惠和新聞
             </Text>
 
             <Flex justify={"center"} gap={5} marginTop={7}>
@@ -55,7 +56,7 @@ const Footer = () => {
                 color="white"
                 width={{ base: "70%", sm: "20%", md: "20%", lg: "25%" }}
               >
-                Subscribe
+                訂閱
               </Button>
             </Flex>
           </Box>
@@ -67,11 +68,11 @@ const Footer = () => {
               fontWeight="bold"
               fontSize={{ base: "15px", sm: "20px", md: "20px", lg: "25px" }}
             >
-              Download our apps
+              下載我們的APP
             </Text>
 
             <Text textAlign="center" fontSize={"15px"}>
-              Shop our products and offers on-the-go.
+              隨時隨地購買我們的產品和優惠
             </Text>
 
             <Flex justify={"center"} gap={5} marginTop={7}>
@@ -89,122 +90,6 @@ const Footer = () => {
       </Flex>
 
       <Divider mt="50px" />
-
-      <Grid
-        mt={"50px"}
-        gridTemplateColumns={{
-          base: "repeat(2,1fr)",
-          sm: "repeat(3,1fr)",
-          md: "repeat(4,1fr)",
-          lg: "repeat(5,1fr)",
-        }}
-        rowGap={10}
-        ml="5%"
-      >
-        <Box width="60%" textAlign={"left"} fontSize={"14px"}>
-          <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
-            Women
-          </Text>
-          <Text mb={"2px"}>Tops</Text>
-          <Text mb={"2px"}>Ethnicwear</Text>
-          <Text mb={"2px"}>Bottoms</Text>
-          <Text mb={"2px"}>Dresses</Text>
-          <Text mb={"2px"}>Jumpsuits</Text>
-          <Text mb={"2px"}>Winterwear</Text>
-          <Text mb={"2px"}>Lingerie</Text>
-          <Text mb={"2px"}>Sportswear</Text>
-          <Text mb={"2px"}>Beauty</Text>
-          <Text mb={"2px"}>Watches</Text>
-          <Text mb={"2px"}>sunglasses</Text>
-        </Box>
-
-        <Box width="60%" textAlign={"left"} fontSize={"14px"}>
-          <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
-            Men
-          </Text>
-          <Text mb={"2px"}>Tops</Text>
-          <Text mb={"2px"}>Bottoms</Text>
-          <Text mb={"2px"}>Ethnicwear</Text>
-          <Text mb={"2px"}>Winterwear</Text>
-          <Text mb={"2px"}>Sportswear</Text>
-          <Text mb={"2px"}>Innerwear</Text>
-          <Text mb={"2px"}>Grooming</Text>
-          <Text mb={"2px"}>Watches</Text>
-          <Text mb={"2px"}>sunglasses</Text>
-        </Box>
-
-        <Box width="60%" textAlign={"left"} fontSize={"14px"}>
-          <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
-            Kids
-          </Text>
-          <Text mb={"2px"}>Girls Clothing</Text>
-          <Text mb={"2px"}>Boys clothing</Text>
-          <Text mb={"2px"}>Infants Girls</Text>
-          <Text mb={"2px"}>Infants Boys</Text>
-          <Text mb={"2px"}>winterwear</Text>
-          <Text mb={"2px"}>Add ons</Text>
-          <Text mb={"2px"}>The Teen Shop</Text>
-        </Box>
-
-        <Box width="65%" textAlign={"left"} fontSize={"14px"}>
-          <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
-            Shoes & Bags
-          </Text>
-          <Text mb={"2px"}>women</Text>
-          <Text mb={"2px"}>Men</Text>
-          <Text mb={"2px"}>Boys</Text>
-          <Text mb={"2px"}>Girls</Text>
-          <Text mb={"2px"}>Accessories</Text>
-          <Text mb={"2px"}>Essentials</Text>
-        </Box>
-
-        <Box width="60%" textAlign={"left"} fontSize={"14px"}>
-          <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
-            Beauty
-          </Text>
-          <Text mb={"2px"}>Makeup Eyes</Text>
-          <Text mb={"2px"}>Makeup Face</Text>
-          <Text mb={"2px"}>Makeup Lips</Text>
-          <Text mb={"2px"}>Makeup Nails</Text>
-          <Text mb={"2px"}>Perfumes</Text>
-        </Box>
-
-        <Box width="65%" textAlign={"left"} fontSize={"14px"}>
-          <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
-            Explore
-          </Text>
-          <Text mb={"2px"}>Online Offers</Text>
-          <Text mb={"2px"}>Store Offers</Text>
-          <Text mb={"2px"}>Online Gift Card</Text>
-          <Text mb={"2px"}>Store Gift Card</Text>
-          <Text mb={"2px"}>Stores Nearby</Text>
-          <Text mb={"2px"}>EDGE</Text>
-          <Text mb={"2px"}>Membership</Text>
-        </Box>
-
-        <Box width="60%" textAlign={"left"} fontSize={"14px"}>
-          <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
-            About
-          </Text>
-          <Text mb={"2px"}>About us</Text>
-          <Text mb={"2px"}>Careers</Text>
-          <Text mb={"2px"}>Take a Tour</Text>
-          <Text mb={"2px"}>Blog</Text>
-          <Text mb={"2px"}>Store Locator</Text>
-          <Text mb={"2px"}>Landmark Cares</Text>
-        </Box>
-
-        <Box width="60%" textAlign={"left"} fontSize={"14px"}>
-          <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
-            Help
-          </Text>
-          <Text mb={"2px"}>Contact us</Text>
-          <Text mb={"2px"}>Shipping</Text>
-          <Text mb={"2px"}>Returns Process</Text>
-          <Text mb={"2px"}>Returns Policy</Text>
-          <Text mb={"2px"}>Help Center</Text>
-        </Box>
-      </Grid>
 
       <Divider mt="50px" />
       <Flex
@@ -241,9 +126,9 @@ const Footer = () => {
             </Box>
             <Box>
               <Text color={"gray"} fontSize={"14px"}>
-                Talk to us
+                聯繫我們
               </Text>
-              <Text>1800-123-1555</Text>
+              <Text>0800-888-888</Text>
             </Box>
           </Flex>
 
@@ -265,9 +150,9 @@ const Footer = () => {
             </Box>
             <Box>
               <Text color={"gray"} fontSize={"14px"}>
-                Helpcentre
+                客服信箱
               </Text>
-              <Text>help@outfitstore.com</Text>
+              <Text>help@fomcoffee.com</Text>
             </Box>
           </Flex>
           <Flex
@@ -288,7 +173,7 @@ const Footer = () => {
             </Box>
             <Box>
               <Text color={"gray"} fontSize={"14px"}>
-                Write to us
+                E-mail
               </Text>
               <Text>help@outfitstore.com</Text>
             </Box>
@@ -327,24 +212,21 @@ const Footer = () => {
       <Box>
         <Flex
           flexDir={{ lg: "row", md: "row", sm: "row", base: "column" }}
-          gap={5}
           mt="20px"
           pb={"20px"}
+          justifyContent={"center"}
         >
-          <Box>
-            <Image
-              alt="logo"
-              width={{ base: "120px", sm: "120px", md: "170", lg: "170px" }}
-              height={{ base: "40%", sm: "60%", md: "100%", lg: "100%" }}
-              src={Logo}
-            />
-          </Box>
-          <Box>
+          <Box
+            display="flex"
+            flexDirection="column"
+            // justifyContent="center"
+            alignItems={"Center"}
+          >
             <Text
               color={"gray"}
               fontSize={{ base: "12px", sm: "14px", md: "14", lg: "14px" }}
             >
-              © 2023 RNA Intellectual Property Limited.
+              © 2023 FOMCoffee
             </Text>
             <Text
               color={"gray"}

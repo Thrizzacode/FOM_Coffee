@@ -73,29 +73,22 @@ export default function Login() {
       minH={"100vh"}
       align={"center"}
       justify={"center"}
-      backgroundImage={
-        "https://cdn.w600.comps.canstockphoto.com/online-shopping-flat-vector-banner-eps-vector_csp37959881.jpg"
-      }
+      backgroundColor={"purple.200"}
     >
       <Stack
         spacing={8}
+        width={"40%"}
         mx={"auto"}
         maxW={"lg"}
         py={12}
         px={6}
+        borderRadius={"xl"}
         backgroundColor={"pink.100"}
       >
         <Stack align={"center"}>
           <Heading fontSize={"4xl"} color={"red.400"}>
-            Sign in to your account
+            會員登入
           </Heading>
-          <Text fontSize={"lg"} color={"gray.600"}>
-            to enjoy all of our cool{" "}
-            <Link color={"brown.400"} href="/">
-              features
-            </Link>{" "}
-            ✌️
-          </Text>
         </Stack>
         <Box
           rounded={"lg"}
@@ -105,7 +98,7 @@ export default function Login() {
         >
           <Stack spacing={4}>
             <FormControl id="email">
-              <FormLabel>Email address</FormLabel>
+              <FormLabel>Email</FormLabel>
               <Input
                 type="email"
                 value={email}
@@ -113,7 +106,7 @@ export default function Login() {
               />
             </FormControl>
             <FormControl id="password">
-              <FormLabel>Password</FormLabel>
+              <FormLabel>密碼</FormLabel>
               <Input
                 type="password"
                 value={password}
@@ -126,8 +119,8 @@ export default function Login() {
                 align={"start"}
                 justify={"space-between"}
               >
-                <Checkbox>Remember me</Checkbox>
-                <Link color={"blue.400"}>Forgot password?</Link>
+                <Checkbox>記住我</Checkbox>
+                <Link color={"blue.400"}>忘記密碼?</Link>
               </Stack>
               <Button
                 onClick={handleSubmit}
@@ -137,7 +130,7 @@ export default function Login() {
                   bg: "blue.500",
                 }}
               >
-                Sign In
+                登入
               </Button>
             </Stack>
           </Stack>

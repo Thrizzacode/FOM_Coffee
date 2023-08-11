@@ -26,7 +26,7 @@ const NavbarTop = () => {
               fontSize="15px"
               pl="13px"
             >
-              Free shipping
+              免運費
             </Box>
           </Flex>
 
@@ -40,7 +40,7 @@ const NavbarTop = () => {
               fontSize="15px"
               pl="13px"
             >
-              Click & Collect
+              點擊&收藏
             </Box>
           </Flex>
 
@@ -54,7 +54,7 @@ const NavbarTop = () => {
               fontSize="15px"
               pl="13px"
             >
-              Return To Store
+              回到商店
             </Box>
           </Flex>
         </Flex>
@@ -69,7 +69,7 @@ const NavbarTop = () => {
               fontSize="13px"
               pl="13px"
             >
-              Download Our App
+              下載APP
             </Box>
           </Box>
 
@@ -84,7 +84,7 @@ const NavbarTop = () => {
               fontSize="13px"
               pl="13px"
             >
-              Store Locator
+              商店位置
             </Box>
           </Box>
 
@@ -99,7 +99,7 @@ const NavbarTop = () => {
               fontSize="13px"
               pl="13px"
             >
-              Help
+              幫助
             </Box>
           </Box>
         </Flex>

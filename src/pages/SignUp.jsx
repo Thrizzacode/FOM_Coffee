@@ -135,16 +135,12 @@ export default function Signup() {
       >
         <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
           <Stack align={"center"}>
-            <Heading
-              fontSize={"4xl"}
-              textAlign={"center"}
-              color={"saddlebrown "}
-            >
-              Sign up
+            <Heading fontSize={"4xl"} textAlign={"center"} color={"purple"}>
+              會員註冊
             </Heading>
 
             <Text fontSize={"lg"} color={"gray.600"}>
-              Welcome to OutFit Store ✌️
+              歡迎加入FOMCoffee
             </Text>
           </Stack>
 
@@ -158,7 +154,7 @@ export default function Signup() {
               <HStack>
                 <Box>
                   <FormControl id="firstName" isRequired>
-                    <FormLabel>First Name</FormLabel>
+                    <FormLabel>名</FormLabel>
                     <Input
                       type="text"
                       value={firstName}
@@ -168,7 +164,7 @@ export default function Signup() {
                 </Box>
                 <Box>
                   <FormControl id="lastName">
-                    <FormLabel>Last Name</FormLabel>
+                    <FormLabel>姓</FormLabel>
                     <Input
                       type="text"
                       value={lastName}
@@ -178,7 +174,7 @@ export default function Signup() {
                 </Box>
               </HStack>
               <FormControl id="email" isRequired>
-                <FormLabel>Email address</FormLabel>
+                <FormLabel>郵件地址</FormLabel>
                 <Input
                   type="email"
                   value={email}
@@ -187,7 +183,7 @@ export default function Signup() {
               </FormControl>
 
               <FormControl id="password" isRequired>
-                <FormLabel>Password</FormLabel>
+                <FormLabel>密碼</FormLabel>
                 <InputGroup>
                   <Input
                     type={showPassword ? "text" : "password"}
@@ -218,14 +214,14 @@ export default function Signup() {
                     bg: "pink.500",
                   }}
                 >
-                  Sign up
+                  註冊
                 </Button>
               </Stack>
               <Stack pt={6}>
                 <Text align={"center"}>
-                  Already a user?{" "}
+                  已經擁有帳號?{" "}
                   <Link color={"blue.400"} href="/login">
-                    Login
+                    登入
                   </Link>
                 </Text>
               </Stack>

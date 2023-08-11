@@ -107,18 +107,22 @@ const Navbar = () => {
               </MenuButton>
 
               <MenuList>
-                <MenuGroup title="Profile">
+                <MenuGroup title="個人資料">
                   <MenuItem color="pink.400">
-                    Hey,{isAuth ? `${afterLoginUser.name}` : "User"}
+                    嗨,{isAuth ? `${afterLoginUser.name}` : "未登錄使用者"}
                   </MenuItem>
-                  <MenuItem>My Account</MenuItem>
-                  <MenuItem>Order History</MenuItem>
-                  <MenuItem>My Address</MenuItem>
-                  <MenuItem>Payments</MenuItem>
-                  <MenuItem>Reviews</MenuItem>
-                  <MenuItem onClick={() => navigate("/adminLogin")}>
+                  {isAuth ? (
+                    ""
+                  ) : (
+                    <MenuItem onClick={() => navigate("login")}>登入</MenuItem>
+                  )}
+                  <MenuItem>我的會員</MenuItem>
+                  <MenuItem>歷史訂單</MenuItem>
+                  <MenuItem>我的地址</MenuItem>
+                  <MenuItem>付款資訊</MenuItem>
+                  {/* <MenuItem onClick={() => navigate("/adminLogin")}>
                     Admin
-                  </MenuItem>
+                  </MenuItem> */}
                 </MenuGroup>
 
                 {isAuth === true ? (
@@ -137,7 +141,7 @@ const Navbar = () => {
                       });
                     }}
                   >
-                    Sign Out
+                    登出
                   </MenuItem>
                 ) : (
                   <MenuItem
@@ -147,7 +151,7 @@ const Navbar = () => {
                       navigate("/signup");
                     }}
                   >
-                    Sign Up
+                    註冊
                   </MenuItem>
                 )}
               </MenuList>
